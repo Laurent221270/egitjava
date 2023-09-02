@@ -1,2 +1,2 @@
 # OC-Java-SolidMvc-CardGame
-Ma version LB
+Ma version (LB) du Jeu de Cartes 
