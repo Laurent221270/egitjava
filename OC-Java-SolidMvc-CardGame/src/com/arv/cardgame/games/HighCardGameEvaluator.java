@@ -5,15 +5,14 @@ import java.util.List;
 import com.arv.cardgame.model.IPlayer;
 import com.arv.cardgame.model.PlayingCard;
 
-
-
-
 /**
+ * HighCardGameEvaluator
  * carte Gagnante= Carte la plus FORTE
  * 
  */
 public class HighCardGameEvaluator implements GameEvaluator {
 
+	@Override
 	public IPlayer evaluateWinner(List<IPlayer> players) {
 		
 		IPlayer bestPlayer = null;

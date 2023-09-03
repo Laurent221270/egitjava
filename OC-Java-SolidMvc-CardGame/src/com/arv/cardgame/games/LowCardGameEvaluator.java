@@ -6,7 +6,8 @@ import com.arv.cardgame.model.IPlayer;
 import com.arv.cardgame.model.PlayingCard;
 
 /**
- * carte Gagnante= Carte lap lus faible
+ * LowCardGameEvaluator
+ * carte Gagnante= Carte la plus faible
  * 
  */
 public class LowCardGameEvaluator implements GameEvaluator {
@@ -14,7 +15,6 @@ public class LowCardGameEvaluator implements GameEvaluator {
 	@Override
 	public IPlayer evaluateWinner(List<IPlayer> players) {
 
-		
 		IPlayer bestPlayer = null;
 		int bestRank = -1;
 		int bestSuit = -1;
