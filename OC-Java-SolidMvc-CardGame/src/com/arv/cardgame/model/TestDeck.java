@@ -13,7 +13,7 @@ public class TestDeck extends Deck {
 		}*/
 
 		for(Suit suit : Suit.values()) {
-			cards.add(new PlayingCard(Rank.ACE, suit));
+			cards.add(new PlayingCard(Rank.NONE, suit));
 			System.out.println("Creating card["+Rank.NONE+"]["+suit+"("+suit.value()+")]");
 		}
 	}
