@@ -5,6 +5,9 @@ import java.util.List;
 
 import com.arv.cardgame.controller.GameController;
 
+/**
+ * pattern COMPOSITE
+ */
 public class GameViewables implements GameViewable {
 
 	List<GameViewable> views;

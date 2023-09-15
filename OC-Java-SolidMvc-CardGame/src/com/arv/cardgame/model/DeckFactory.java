@@ -1,5 +1,9 @@
 package com.arv.cardgame.model;
 
+
+/**
+ * pattern FACTORY
+ */
 public class DeckFactory {
 	
 	public enum DeckType {

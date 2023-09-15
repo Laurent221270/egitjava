@@ -1,5 +1,8 @@
 package com.arv.cardgame.model;
 
+/**
+ * pattern DECORATOR
+ */
 public class WinningPlayer implements IPlayer {
 
 	

@@ -20,7 +20,7 @@ public class GameSwingPassiveView implements GameViewable {
 	public void createAndShowGUI() {
 
 		// create main frame
-		frame = new JFrame("MVC-SOLID-Game");
+		frame = new JFrame("MVC-SOLID-Game"+" (passive)");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(500, 500);
 
