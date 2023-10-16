@@ -1,4 +1,11 @@
-multi project repository
+multi project repository (uh?)
+
+# DesignPatterns
+well I almost tried...
+
+# FirstJavaFXProject
+all is said !
+
 # OC-Java-SolidMvc-CardGame
 Ma version (LB) du Jeu de Cartes 
 
@@ -6,5 +13,3 @@ Ma version (LB) du Jeu de Cartes
 un mangeur de tableau avec affichage Swing
 (created from OC-Java-SolidMvc-CardGame)
 
-# FirstJavaFXProject
-all is said !
