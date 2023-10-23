@@ -9,7 +9,11 @@ import org.arv.stock.StockProduct;
 import org.arv.util.UtilRandom;
 
 /**
+<<<<<<< HEAD
  * Plutôt une appli de mise en oeuvre de principes SOLID
+=======
+ * une appli de mise en oauvre de principes SOLID
+>>>>>>> branch 'main' of https://github.com/Laurent221270/egitjava.git
  * 
  * Avec l'utilisation d'Interfaces (surtout)
  */
