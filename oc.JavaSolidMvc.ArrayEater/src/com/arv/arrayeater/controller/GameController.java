@@ -1,6 +1,5 @@
 package com.arv.arrayeater.controller;
 
-import com.arv.arrayeater.games.GameEvaluator;
 import com.arv.arrayeater.model.ArrayEater;
 import com.arv.arrayeater.model.ArrayEaterFactory;
 import com.arv.arrayeater.view.GameViewable;
@@ -16,15 +15,13 @@ public class GameController {
 	GameViewable view;
 
 	GameState gameState;
-	GameEvaluator evaluator;
 
-	public GameController(GameViewable view, GameEvaluator evaluator) {
+	public GameController(GameViewable view) {
 		super();
 		this.view = view;
 
 		this.gameState = GameState.AskForArrayDim;
 		view.setController(this);
-		this.evaluator = evaluator;
 
 	}
 

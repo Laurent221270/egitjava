@@ -39,7 +39,7 @@ public class Games {
 		
 		//Jeu en mode Swing 
 		
-		gc= new GameController(views, new HighCardGameEvaluator());
+		gc= new GameController(views);
 		gc.run();
 		
 		/*
