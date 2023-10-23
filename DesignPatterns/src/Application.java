@@ -8,6 +8,11 @@ import org.arv.stock.StockBox;
 import org.arv.stock.StockProduct;
 import org.arv.util.UtilRandom;
 
+/**
+ * Plutôt une appli de mise en oeuvre de principes SOLID
+ * 
+ * Avec l'utilisation d'Interfaces (surtout)
+ */
 public class Application {
 	
 	ArrayList<Order> orders;
